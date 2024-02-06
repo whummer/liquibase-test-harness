@@ -236,6 +236,7 @@ To change it to another format, like 'sql' for instance, specify `-DinputFormat=
 
 
 ### Adding a change object test
+
 1) Go to `src/main/resources/liquibase/harness/change/changelogs` and add the xml (or other) changeset for the change type you
  want to test.
   - The framework tries to rollback changes after deploying it to DB. If Liquibase knows how to do a rollback for that particular changeset, it will automatically do that.
